@@ -16,8 +16,22 @@ body {
 nav {
     height: 80px;
     display: flex;
+    padding-top: 32px;
 }
 
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
 
 /*Nav Bar*/
  
@@ -25,10 +39,9 @@ nav {
 
 .nav__container {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
 }
 
@@ -41,8 +54,9 @@ nav {
 }
 
 .nav__logo--img {
-    width: 100%;
-    height: 100%;
+    width: 40px;
+    height: 40px;
+
 }
 
 .nav__links {
